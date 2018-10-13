@@ -19,7 +19,12 @@ This is a simple feedback application and the "Smiley Rating" library developed 
 
 <img src="https://user-images.githubusercontent.com/10433759/46908000-60dd4700-cf39-11e8-979b-45621aa52197.png" width="250" hspace="20"/><img src="https://user-images.githubusercontent.com/10433759/46907956-c846c700-cf38-11e8-9662-fa5d9be72f94.png" width="250" hspace="20"/>
 
+## Credits
 
+[Smiley Rating](https://github.com/sujithkanna/SmileyRating) by [Sujith Kanna](https://github.com/sujithkanna/)
+
+JakeWharton's [Butter Knife](https://github.com/JakeWharton/butterknife)
+## License 
 ```
 /*
  * Copyright (c) 2018 Sivan Chakravarthy
