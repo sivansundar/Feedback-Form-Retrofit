@@ -13,11 +13,37 @@ This is a simple feedback application and the "Smiley Rating" library developed 
 * Butterknife Injections
 * Smiley Rating
 
+### Usage
+
+  WebService.java
+
+```
+    @POST("1FAIpQLSfIqT9HDPAX9AmmCfKYr8vbTWYh1Tt_Vw48yyoAU-S-KcGk7g/formResponse") // FORM URL
+    
+     Call<Void> postValues( // Entry ID of the response field for each of the question
+            @Field("entry.2142461976") String ans1,
+            @Field("entry.243759480") String ans2,
+            @Field("entry.1254919597") String ans3,
+            @Field("entry.862272373") String ans4,
+            @Field("entry.1271418664") String ans5
+    );
+```
+1.) Change the post URL in your Webservice.java to your specific form URL.
+
+2.) To obtain the entry fields of your form, go to your form and right click on the page > View Source.
+
+3.) This is where you find the entry field IDs for your respective form questions. 
+
+<img src="https://user-images.githubusercontent.com/10433759/47069750-56f36680-d20d-11e8-8169-ecea58f5d834.JPG" width="500"/>
+
+4.) Replace your entry field IDs in the WebService.java file.
 
 
-## Screenshots
+### Screenshots
 
-<img src="https://user-images.githubusercontent.com/10433759/46908000-60dd4700-cf39-11e8-979b-45621aa52197.png" width="250" hspace="20"/><img src="https://user-images.githubusercontent.com/10433759/46907956-c846c700-cf38-11e8-9662-fa5d9be72f94.png" width="250" hspace="20"/>
+<img src="https://user-images.githubusercontent.com/10433759/47069865-9e79f280-d20d-11e8-908b-96438c71acd6.png" width="250" hspace="20"/><img src="https://user-images.githubusercontent.com/10433759/46907956-c846c700-cf38-11e8-9662-fa5d9be72f94.png" width="250" hspace="20"/>
+
+Make sure you go check your response sheet after clicking on the submit button. 
 
 ## Credits
 
